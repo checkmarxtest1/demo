@@ -30,7 +30,16 @@ namespace ConsoleApplication4
            }
        }
 
+       public void SQLi2()
+       {
+           using (SqlConnection c = new SqlConnection())
+           {
 
+               SqlCommand cmd = new SqlCommand("SELECT * FROM Table WHERE " + Request.Form["data"]);
+               cmd.ExecuteNonQuery();
+           
+           }
+       }
 
        
     }
