@@ -11,7 +11,7 @@ namespace ConsoleApplication4
     {
        public void  XSS()
        {
-            Response.Write(Request.Form["data"]);
+          /*  Response.Write(Request.Form["data"]);*/
        }
 
        public void Privacy()
