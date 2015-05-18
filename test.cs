@@ -25,7 +25,7 @@ namespace ConsoleApplication4
            {
 
                SqlCommand cmd = new SqlCommand("SELECT * FROM Table WHERE " + Request.Form["data"]);
-               cmd.ExecuteNonQuery();
+              // cmd.ExecuteNonQuery();
            
            }
        }
