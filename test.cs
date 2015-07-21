@@ -16,7 +16,7 @@ namespace ConsoleApplication4
 
        public void Privacy()
        {
-           string password = "123456987987";
+          /* string password = "123456987987";*/
             /* string password = "123456987987";*/
        }
 
